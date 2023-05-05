@@ -10,8 +10,7 @@ class SiteController {
                     courses: mutipleMongooseToObject(courses)
                 });
             })
-            .catch(next);
-        
+            .catch(next);       
     }
 
     // [GET] /search
